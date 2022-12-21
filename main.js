@@ -1,9 +1,9 @@
-let currentDate = new Date();
-let day = currentDate.getDay()
-let id = Array.from(document.querySelector('#weekdays').children)
-if( day === 0){
-    id[6].classList.add('current')
-}
-else{
-    id[day - 1].classList.add('current')
+let l1 = [2,4,3]
+let l2 = [5,6,4]
+
+let toInt = function (mas) {
+    let result = ""
+
+    result = Number(result)
+    return result
 }

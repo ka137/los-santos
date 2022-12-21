@@ -11,6 +11,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <section class="frist">
@@ -21,10 +24,10 @@
                     <ul class="menu__list">
                         <li class="menu__item"><a href="#timetable" class="menu__item-link">Режим работы</a></li>
                         <li class="menu__item"><a href="#rates" class="menu__item-link">Тарифы</a></li>
-                        <li class="menu__item"><a href="#" class="menu__item-link">Галерея</a></li>
-                        <li class="menu__item"><a href="#" class="menu__item-link">Турниры</a></li>
+                        <li class="menu__item"><a href="#" class="menu__item-link">Наш адрес</a></li>
+                        <li class="menu__item"><a href="tournaments.html" class="menu__item-link">Новости</a></li>
                     </ul>
-                    <button class="header__button">Забронировать</button>
+                    <a href="https://vk.com/public210217723" class="header__button">Написать нам</a>
                 </header>
                 <div class="first__text">
                     <h1 class="first__title">LOS SANTOS</h1>
@@ -40,122 +43,313 @@
             <div class="timetable__wrapper" id = "weekdays">
                 <div class="timetable__box">
                     <div class="timetable__title">Понедельник</div>
-                    <div class="timetable__text">15:00 <br>-<br> До талого </div>
+                    <div class="timetable__text">12:00 <br>-<br> 00:00 </div>
                 </div>
                 <div class="timetable__box">
                     <div class="timetable__title">Вторник</div>
-                    <div class="timetable__text">15:00 <br>-<br> До талого </div>
+                    <div class="timetable__text">12:00 <br>-<br>  00:00 </div>
                 </div>
                 <div class="timetable__box">
                     <div class="timetable__title">Среда</div>
-                    <div class="timetable__text">15:00 <br>-<br> До талого </div>
+                    <div class="timetable__text">12:00 <br>-<br>  00:00 </div>
                 </div>
                 <div class="timetable__box">
                     <div class="timetable__title">Четверг</div>
-                    <div class="timetable__text">15:00 <br>-<br> До талого </div>
+                    <div class="timetable__text">12:00 <br>-<br>  00:00 </div>
                 </div>
                 <div class="timetable__box">
                     <div class="timetable__title">Пятница</div>
-                    <div class="timetable__text">15:00 <br>-<br> До талого </div>
+                    <div class="timetable__text">12:00 <br>-<br>  00:00 </div>
                 </div>
-                <div class="timetable__box">
+                <div class="timetable__box aa">
                     <div class="timetable__title">Суббота</div>
-                    <div class="timetable__text">15:00 <br>-<br> До талого </div>
+                    <div class="timetable__text">12:00 <br>-<br> До талого </div>
                 </div>
-                <div class="timetable__box">
+                <div class="timetable__box aa">
                     <div class="timetable__title">Воскресенье</div>
-                    <div class="timetable__text">15:00 <br>-<br> До талого </div>
+                    <div class="timetable__text">12:00 <br>-<br> До талого </div>
                 </div>
             </div>
         </div>
-
-
-
-        <div class="rates" id = "rates">
+        <div class="tarif" id = "rates">
             <div class="second__title">Тарифы ПК</div>
-            <div class="rates__wrapper">
-                <div class="card">
-                    <div class="box__wrapper">
-                        <div class="box">
-                            <div class="side front box_1">1 час</div>
-                            <div class="side back">Час за ПК</div>
+            <div class="container">
+                <div class="tarif__inner">
+                    <div class="tarif__box">
+                        <h3 class="tarif__title">1 час</h3>
+                        <div class="tarif__info-block">
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">Залы</div>
+                                <div class="info-block__text">Общий зал</div>
+                            </div>
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">Цена</div>
+                                <div class="info-block__text">100 ₽</div>
+                            </div>
+                        </div>
+                        <div class="tarif__empty"></div>
+                        <div class="tarif__line"> </div>
+                        <div class="tarif__info-block">
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">Длительность</div>
+                                <div class="info-block__text">1 ч.</div>
+                            </div>
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">График действия</div>
+                                <div class="info-block__grafik">
+                                    Доступен всегда
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="card__text">100р</div>
-                </div>
-                <div class="card">
-                    <div class="box__wrapper">
-                        <div class="box">
-                            <div class="side front box_1">2 + 1 <br>-<br> 3 часа</div>
-                            <div class="side back">Время активации 15:00-15:30 18:00-18:30 21:00-21:30</div>
+                    <div class="tarif__box">
+                        <h3 class="tarif__title">2 + 1</h3>
+                        <div class="tarif__info-block">
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">Залы</div>
+                                <div class="info-block__text">Общий зал</div>
+                            </div>
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">Цена</div>
+                                <div class="info-block__text">200 ₽</div>
+                            </div>
+                        </div>
+                        <div class="tarif__empty"></div>
+                        <div class="tarif__line"> </div>
+                        <div class="tarif__info-block">
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">Длительность</div>
+                                <div class="info-block__text">3 ч.</div>
+                            </div>
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">График действия</div>
+                                <div class="info-block__grafik">
+                                    15:00 - 15:30
+                                    18:00 - 18:30
+                                    21:00 - 21:30
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="card__text">200р</div>
-                </div>
-                <div class="card">
-                    <div class="box__wrapper">
-                        <div class="box">
-                            <div class="side front box_1">4 + 2 <br>-<br> 6 часов</div>
-                            <div class="side back">Активен в любое время</div>
+                    <div class="tarif__box">
+                        <h3 class="tarif__title">4 + 2</h3>
+                        <div class="tarif__info-block">
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">Залы</div>
+                                <div class="info-block__text">Общий зал</div>
+                            </div>
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">Цена</div>
+                                <div class="info-block__text">400 ₽</div>
+                            </div>
+                        </div>
+                        <div class="tarif__empty"></div>
+                        <div class="tarif__line"> </div>
+                        <div class="tarif__info-block">
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">Длительность</div>
+                                <div class="info-block__text">6 ч.</div>
+                            </div>
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">График действия</div>
+                                <div class="info-block__grafik">
+                                    15:00 - 15:30
+                                    18:00 - 18:30
+                                    21:00 - 21:30
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="card__text">400р</div>
-                </div>
-                <div class="card">
-                    <div class="box__wrapper">
-                        <div class="box">
-                            <div class="side front box_2">Ночной <br>-<br> 7 часов</div>
-                            <div class="side back">00:00-07:00<br> время на активацию до 01:00</div>
+                    <div class="tarif__box">
+                        <h3 class="tarif__title">Ночной</h3>
+                        <div class="tarif__info-block">
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">Залы</div>
+                                <div class="info-block__text">Общий зал</div>
+                            </div>
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">Цена</div>
+                                <div class="info-block__text">350 ₽</div>
+                            </div>
+                        </div>
+                        <div class="tarif__empty"></div>
+                        <div class="tarif__line"> </div>
+                        <div class="tarif__info-block">
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">Длительность</div>
+                                <div class="info-block__text">7 ч.</div>
+                            </div>
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">График действия</div>
+                                <div class="info-block__grafik">
+                                    00:00 - 01:00
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="card__text">350р</div>
-                </div>
-                <div class="card">
-                    <div class="box__wrapper">
-                        <div class="box">
-                            <div class="side front box_2">12 часов</div>
-                            <div class="side back">От открытия до закрытия</div>
+                    <div class="tarif__box">
+                        <h3 class="tarif__title">12 часов</h3>
+                        <div class="tarif__info-block">
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">Залы</div>
+                                <div class="info-block__text">Общий зал</div>
+                            </div>
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">Цена</div>
+                                <div class="info-block__text">700 ₽</div>
+                            </div>
+                        </div>
+                        <div class="tarif__empty"></div>
+                        <div class="tarif__line"> </div>
+                        <div class="tarif__info-block">
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">Длительность</div>
+                                <div class="info-block__text">12 ч.</div>
+                            </div>
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">График действия</div>
+                                <div class="info-block__grafik">
+                                    Доступен всегда
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="card__text">700р</div>
-                </div>
-
-                <div class="card">
-                    <div class="box__wrapper">
-                        <div class="box">
-                            <div class="side front box_3">ПОМИНУТНЫЙ</div>
-                            <div class="side back">Доступен при регистрации аккаунта SmartShell  </div>
+                    <div class="tarif__box">
+                        <h3 class="tarif__title">Поминутный</h3>
+                        <div class="tarif__info-block">
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">Залы</div>
+                                <div class="info-block__text">Общий зал</div>
+                            </div>
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">Цена</div>
+                                <div class="info-block__text">1.7 ₽</div>
+                            </div>
+                        </div>
+                        <div class="tarif__empty"></div>
+                        <div class="tarif__line"> </div>
+                        <div class="tarif__info-block">
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">Длительность</div>
+                                <div class="info-block__text">1 мин.</div>
+                            </div>
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">График действия</div>
+                                <div class="info-block__grafik">
+                                    Доступен всегда
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="card__text">1.70р</div>
+                    <div class="tarif__box">
+                        <h3 class="tarif__title">Поминутный</h3>
+                        <div class="tarif__info-block">
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">Залы</div>
+                                <div class="info-block__text">Общий зал</div>
+                            </div>
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">Цена</div>
+                                <div class="info-block__text">1.7 ₽</div>
+                            </div>
+                        </div>
+                        <div class="tarif__empty"></div>
+                        <div class="tarif__line"> </div>
+                        <div class="tarif__info-block">
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">Длительность</div>
+                                <div class="info-block__text">1 мин.</div>
+                            </div>
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">График действия</div>
+                                <div class="info-block__grafik">
+                                    Доступен всегда
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
             </div>
             <div class="second__title">Тарифы PS4</div>
-            <div class="rates__wrapper ps4">
-                <div class="card">
-                    <div class="box__wrapper">
-                        <div class="box">
-                            <div class="side front box_1">1 час</div>
-                            <div class="side back">VIP комната с PS4 на час</div>
+            <div class="container">
+                <div class="tarif__inner ps4">
+                    <div class="tarif__box">
+                        <h3 class="tarif__title">1 час</h3>
+                        <div class="tarif__info-block">
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">Залы</div>
+                                <div class="info-block__text">VIP зал</div>
+                            </div>
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">Цена</div>
+                                <div class="info-block__text">150 ₽</div>
+                            </div>
+                        </div>
+                        <div class="tarif__empty"></div>
+                        <div class="tarif__line"> </div>
+                        <div class="tarif__info-block">
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">Длительность</div>
+                                <div class="info-block__text">1 ч.</div>
+                            </div>
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">График действия</div>
+                                <div class="info-block__grafik">
+                                    Доступен всегда
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="card__text">150р</div>
-                </div>
-
-                <div class="card">
-                    <div class="box__wrapper">
-                        <div class="box">
-                            <div class="side front box_4">со своими напитками</div>
-                            <div class="side back">Если пришли со своими напитками</div>
+                    <div class="tarif__box">
+                        <h3 class="tarif__title">Со своими напитками</h3>
+                        <div class="tarif__info-block">
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">Залы</div>
+                                <div class="info-block__text">VIP зал</div>
+                            </div>
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">Цена</div>
+                                <div class="info-block__text">200 ₽</div>
+                            </div>
+                        </div>
+                        <div class="tarif__empty"></div>
+                        <div class="tarif__line"> </div>
+                        <div class="tarif__info-block">
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">Длительность</div>
+                                <div class="info-block__text">1 ч.</div>
+                            </div>
+                            <div class="tarif__info-block_inner">
+                                <div class="info-block__title">График действия</div>
+                                <div class="info-block__grafik">
+                                    Доступен всегда
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="card__text">200р</div>
                 </div>
-
             </div>
         </div>
+
+        <div class="address">
+            <div class="second__title">Наш адрес</div>
+            <div class="address__inner"><iframe class="address__inner" src="https://yandex.ru/map-widget/v1/?um=constructor%3A090b80984852e9427c737bd5bae497fa33dfdd6b7663db6b9ad369e5d506c94b&amp;source=constructor" width="1000" height="700" frameborder="0"></iframe></div>
+        </div>   
+        <div class="about-us">
+            <div class="container">
+                <div class="about-us__inner">
+                    <div class="second__title">О нас</div>
+                </div>
+            </div>
+        </div>  
     </section>
+    <footer class="footer">
+        <img src="images/decor2.png" alt="decor" class="decor-footer">
+            <div class="footer__inner">
+                
+            </div>
+    </footer>
+    <script src='//app.restoplace.cc/widget.js?h=c63d6f106f0fe5b425ed' async></script>
     <script src="main.js"></script>
 </body>
 </html>
