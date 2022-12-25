@@ -26,7 +26,7 @@ a{
 .frist {
     width: 100%;
     height: 100vh;
-    background-image: url(images/фон2.jpg);
+    background-image: url(images/фонхедер.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -61,7 +61,6 @@ a{
     transition: 0.3s;
 }
 .logo:hover{
-
     transform: scale(1.1);
 }
 .logo-img {
@@ -116,7 +115,7 @@ a{
 .first__title {
     font-family: 'ssboldin';
     font-size: 70px;
-    color: #9062cc;
+    color: #B68BD9;
     letter-spacing: 0.25em;
     margin-bottom: 20px;
     cursor:default;
@@ -124,15 +123,90 @@ a{
 .first__subtitle {
     font-family: 'gomme';
     font-size: 40px;
-    color: #9062cc;
+    color: #B68BD9;
     cursor:default;
 }
-.decor{
+/*-----------------------------------------------------------*/
+.img-title{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+#first{
+    background-image: url(images/фон1.jpg);
+}
+#second{
+    background-image: url(images/фон2.jpg);
+}
+#third{
+    background-image: url(images/фон3.jpg);
+}
+.decor_top{
     width: 100%;
     position: absolute;
-    bottom:0;
+    top:0;
     pointer-events: none;
 }
+.decor_bottom{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    pointer-events: none;
+}
+.main-block{
+    background-color: #191124;
+    width: 100%;
+    min-height: 200px;
+}
+/*-----------------------------------------------------------*/
+.main__title{
+    margin: 15px 0 30px 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 35px;
+    color: #FFFFFF;
+}
+.main__text{
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 32px;
+    color: #D8D8D8;
+    margin-bottom: 80px;
+    
+}
+.main__list{
+    max-width: 700px;
+    margin: 0 auto 70px;
+    list-style-type:disc;
+
+}
+.main__item {
+    font-size: 20px;
+    line-height: 32px;
+    color: #D8D8D8;
+    margin: 15px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
 /*-----------------------------------------------------------*/
 .second{
 }
@@ -252,13 +326,13 @@ a{
 .box_3{font-size: 22px;}
 .box_4{font-size: 30px;}
 
-.address__inner{
+.address{
     max-width: 1000px;
     margin: 0 auto;
     filter: grayscale(0.5);
 }
 .tarif__inner{
-    margin: 0 auto;
+    margin: 0 auto 80px;
     max-width: 1430px;
     display: flex;
     justify-content: start;
@@ -324,7 +398,7 @@ a{
     pointer-events: none;
 }
 .footer {
-
+    margin-top: 100px;
 }
 .footer__inner {
     background-color: #252525;
@@ -401,3 +475,67 @@ a{
 .n__data {
     margin-top: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 923px) {
+    .header{
+        padding-top: 5px;
+    }
+    .menu__item-link {
+        font-size: 15px;
+    }
+    .header__button{
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    .logo {
+        margin: 0 0 0 10px;
+        padding-right: 20px;
+        transition: 0.3s;
+    }
+    .logo-img {
+        width: 70px;
+        height: 70px;
+    }
+  }
+  @media (max-width: 679px) {
+    .header{
+        padding-top: 0px;
+    }
+    .menu__item-link {
+        font-size: 12px;
+    }
+    .header__button{
+        padding: 7px 12px;
+        font-size: 12px;
+    }
+    .logo {
+        margin: 0 0 0 10px;
+        padding-right: 20px;
+        transition: 0.3s;
+    }
+    .logo-img {
+        width: 60px;
+        height: 60px;
+    }
+    .menu__item {
+        margin: 0 10px;
+    }
+    .first__title{
+        font-size: 45px;
+    }
+    .first__subtitle{
+        font-size: 20px;
+    }
+  }
