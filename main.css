@@ -144,6 +144,7 @@ a{
     background-repeat: no-repeat;
     font-weight: 500;
     font-size: 45px;
+    background-attachment: fixed;
 }
 
 #first{
@@ -429,9 +430,9 @@ a{
         font-size: 12px;
     }
     .header__button{
-        width: 150px;
-        height: 30px;
-        font-size: 12px;
+        width: 170px;
+        height: 35px;
+        font-size: 14px;
     }
     .logo {
         margin: 0 0 0 10px;
