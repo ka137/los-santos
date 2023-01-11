@@ -96,12 +96,17 @@ a{
     width: 100%;
 }
 .header__button{
-    padding: 13px 22px;
+    width: 214px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Rubik';
+    font-weight: 400;
     font-size: 20px;
     color: #fff;
-    background: #674396;
-    border-radius: 11px;
+    background: #7c4db9;
+    border-radius: 23px;
     cursor: pointer;
     margin: 0 10px 0 0;
     transition: 0.3s;
@@ -176,7 +181,7 @@ a{
     color: #FFFFFF;
 }
 .main__text{
-    max-width: 800px;
+    max-width: 550px;
     margin: 0 auto;
     font-size: 20px;
     line-height: 32px;
@@ -333,7 +338,7 @@ a{
 }
 .tarif__inner{
     margin: 0 auto 80px;
-    max-width: 1430px;
+    max-width: 1160px;
     display: flex;
     justify-content: start;
     flex-wrap: wrap;
